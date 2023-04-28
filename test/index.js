@@ -1,5 +1,6 @@
 const lyrics = require('../index.js');
 
+lyrics.fetch('S', e)
 (async() => {
     try {
         console.log(await lyrics.fetch('Old Town Road'))
